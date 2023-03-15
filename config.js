@@ -22,7 +22,7 @@ global.APIKeys = {
 ////////////////////////////////////////////////////|:|             OWNER DETAILS             |:|//////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 global.session = process.env.SESSION_ID || 'PUT HERE',
-global.ownername = process.env.OWNER_NAME === undefined ? "DarkWinzo" : process.env.OWNER_NAME
+global.ownername = process.env.OWNER_NAME === undefined ? "Djalega++" : process.env.OWNER_NAME
 let fake = process.env.OWNER_NUMBER === undefined ? '94775200935' : process.env.OWNER_NUMBER
 global.owner = [`${fake}`]
 global.ownernumber = [`${fake}`]
@@ -44,13 +44,13 @@ global.prefa = ['.']
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 global.mess = {
         wait: '*ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ...⏳️*',
-        owner: '*🔰️ ᴏɴʟʏ ᴍʏ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ*',
-        group: '*🔰️ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ɪꜱ ᴍᴀᴅᴇ ꜰᴏʀ *ɢʀᴏᴜᴘꜱ* ᴏɴʟʏ !*',
-        admin: '*🔰️ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ᴏɴʟʏ ꜰᴏʀ *ɢʀᴏᴜᴘ ᴀᴅᴍɪɴ !*',
-        botadmin: '*ꜱᴏʀʀʏ😔️, ɪ ᴄᴀɴɴᴏᴛ ʀᴜɴ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜᴏᴜᴛ ʙᴇɪɴɢ ᴀɴ *ᴀᴅᴍɪɴ* ᴏꜰ ᴛʜɪꜱ ɢʀᴏᴜᴘ.*',
-        botAdmin: '*ꜱᴏʀʀʏ😔️, ɪ ᴄᴀɴɴᴏᴛ ʀᴜɴ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜᴏᴜᴛ ʙᴇɪɴɢ ᴀɴ *ᴀᴅᴍɪɴ* ᴏꜰ ᴛʜɪꜱ ɢʀᴏᴜᴘ.*',
-        banned: '*❌️ ʏᴏᴜ ᴀʀᴇ *ʙᴀɴɴᴇᴅ* ꜰʀᴏɴ ᴜꜱɪɴɢ ᴄᴏᴍᴍᴀɴᴅꜱ !*',
-        bangc: '*❌️ ᴛʜɪꜱ ɢʀᴏᴜᴘ ɪꜱ ʙᴀɴɴᴇᴅ ꜰʀᴏᴍ ᴜꜱɪɴɢ ᴄᴏᴍᴍᴀɴᴅꜱ !*',
+        owner: '*🔰️ seul le boss Djalega++ peut utiliser cette ᴄᴏᴍᴍᴀɴᴅe*',
+        group: '*🔰️ cette ᴄᴏᴍᴍᴀɴᴅe est uniquement pour les *ɢʀᴏᴜᴘeꜱ*  !*',
+        admin: '*🔰️ cette commande est réservée aux  ᴀᴅᴍɪɴ !* by Djalega++',
+        botadmin: '*desolé😔️, je peux pas exécuter cette ᴄᴏᴍᴍᴀɴᴅe tant que je suis pas *ᴀᴅᴍɪɴ* du ɢʀᴏᴜᴘe.* 😌 Djalega++',
+        botAdmin: '* desolé😔️, je peux pas exécuter cette ᴄᴏᴍᴍᴀɴᴅe tant que je suis pas *ᴀᴅᴍɪɴ* du ɢʀᴏᴜᴘe.* 😌 Djalega++.',
+        banned: '*❌️ tu es  *ʙᴀɴɴi* d utilisation du bot !*',
+        bangc: '*❌️ ce ɢʀᴏᴜᴘe est ʙᴀɴɴi d utilisation du bot !*',
 }
 //documents variants
 global.doc1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
